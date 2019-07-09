@@ -123,4 +123,22 @@ body {
 	margin: 50px 40px;
 }
 
+.location-map {
+	border: 1px solid red;
+	width: 100%;
+}
+
+.location-map .padding-location {
+	height: 70px;
+	width: 100%;
+	padding: 20px;
+	background-color: gray;
+}
+
+.location-map h1 {
+	text-align: center;
+	background-color: gray;
+	font-size: 1.2em;
+}
+
 /*# sourceMappingURL=main.css.map */

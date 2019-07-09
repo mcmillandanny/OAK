@@ -82,3 +82,25 @@ body {
 	}
 
 }
+
+
+.location-map {
+	border: 1px solid red;
+	width: 100%;
+	// padding: 10px;
+
+	.padding-location {
+		height: 70px;
+		width: 100%;
+		padding: 20px;
+		background-color: gray;
+	}
+
+	h1 {
+		text-align: center;
+		background-color: gray;
+		font-size: 1.2em;
+		// margin: 20px;
+
+	}
+}
