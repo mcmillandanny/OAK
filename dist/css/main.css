@@ -57,7 +57,70 @@ table {
 }
 
 body {
-	background: #ccc;
+	background: #eeebe0;
+}
+
+.content {
+	max-width: 1200px;
+	margin: auto;
+	border: 1px solid orange;
+}
+
+.hero-content {
+	border: 1px solid red;
+	width: 100%;
+}
+
+.hero-content img {
+	display: block;
+	margin: 150px auto 50px auto;
+}
+
+.hero-content p {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding: 40px;
+	line-height: 1.5;
+}
+
+.carousel-indicators li {
+	border-radius: 50%;
+	height: 12px;
+	width: 12px;
+}
+
+.col-1-boxes {
+	border: 1px solid green;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.col-1-boxes .box-1-col-1, .col-1-boxes .box-2-col-1, .col-1-boxes .box-3-col-1, .col-1-boxes .box-4-col-1, .col-1-boxes .box-5-col-1, .col-1-boxes .box-6-col-1 {
+	width: 150px;
+	height: 150px;
+	margin: 50px 40px;
+	border: 1px solid red;
+}
+
+.col-2-boxes {
+	border: 1px solid green;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.col-2-boxes .box-1-col-2, .col-2-boxes .box-2-col-2, .col-2-boxes .box-3-col-2, .col-2-boxes .box-4-col-2, .col-2-boxes .box-5-col-2, .col-2-boxes .box-6-col-2 {
+	width: 150px;
+	height: 150px;
+	border: 1px solid red;
+	margin: 50px 40px;
 }
 
 /*# sourceMappingURL=main.css.map */
