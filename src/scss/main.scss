@@ -62,10 +62,10 @@ body {
 	}
 
 	p {
-		width: 95%;
+		width: 100%;
 		margin: auto;
 		text-align: center;
-		padding: 60px 70px;
+		padding: 0px 30px 40px 30px;
 		color: #6C5E4B;
 		line-height: 1.5;
 		font-size: 1.2em;
@@ -195,7 +195,7 @@ body {
 
 
 			.sf-text {
-				font-size: .5em;
+				font-size: .8em;
 			}
 
 			.padding-text {
@@ -339,27 +339,27 @@ body {
 		display: inline-block;
 		color: rgba(101, 88, 68, 1);
 		font-family: "TiemposTex-Regular";
-
 	}
 }
 
 .footer-wrap {
 	background: rgba(101, 88, 68, 1);
-	width: 100%;
 	padding: 10px;
-	display: flex;
-	// justify-content:flex-end;
+	width: 100%;
 
 	img {
-		width: 45%;
+		width: 30%;
 		padding: 15px;
 		margin-right: auto;
+		// float: left;
 	}
 
 	nav {
-		padding: 20px;
+		padding: 10px;
 		font-size: .7em;
 		font-family: "TiemposTex-Regular";
+		display: inline-block;
+		float: right;
 
 		ul {
 			color: #fff;
@@ -434,17 +434,16 @@ body {
 	}
 
 	.footer-wrap {
-		max-width: 1268px;
 		margin: auto;
 		img {
-			width: 25%;
-			max-width: 25%;
-			display: block;
+			width: 20%;
+			max-width: 20%;
+			// display: block;
 		}
 
 
 		nav {
-
+			float: right;
 			ul {
 				margin-top: 5px;
 

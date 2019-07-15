@@ -93,10 +93,10 @@ body {
 }
 
 .hero-content p {
-	width: 95%;
+	width: 100%;
 	margin: auto;
 	text-align: center;
-	padding: 60px 70px;
+	padding: 0px 30px 40px 30px;
 	color: #6C5E4B;
 	line-height: 1.5;
 	font-size: 1.2em;
@@ -196,7 +196,7 @@ body {
 }
 
 .boxes-wrap .col-2-boxes .box-1-col-2 .sf-text, .boxes-wrap .col-2-boxes .box-2-col-2 .sf-text, .boxes-wrap .col-2-boxes .box-3-col-2 .sf-text, .boxes-wrap .col-2-boxes .box-4-col-2 .sf-text, .boxes-wrap .col-2-boxes .box-5-col-2 .sf-text, .boxes-wrap .col-2-boxes .box-6-col-2 .sf-text {
-	font-size: .5em;
+	font-size: .8em;
 }
 
 .boxes-wrap .col-2-boxes .box-1-col-2 .padding-text, .boxes-wrap .col-2-boxes .box-2-col-2 .padding-text, .boxes-wrap .col-2-boxes .box-3-col-2 .padding-text, .boxes-wrap .col-2-boxes .box-4-col-2 .padding-text, .boxes-wrap .col-2-boxes .box-5-col-2 .padding-text, .boxes-wrap .col-2-boxes .box-6-col-2 .padding-text {
@@ -305,21 +305,22 @@ body {
 
 .footer-wrap {
 	background: #655844;
-	width: 100%;
 	padding: 10px;
-	display: flex;
+	width: 100%;
 }
 
 .footer-wrap img {
-	width: 45%;
+	width: 30%;
 	padding: 15px;
 	margin-right: auto;
 }
 
 .footer-wrap nav {
-	padding: 20px;
+	padding: 10px;
 	font-size: .7em;
 	font-family: "TiemposTex-Regular";
+	display: inline-block;
+	float: right;
 }
 
 .footer-wrap nav ul {
@@ -368,13 +369,14 @@ body {
 		width: 35%;
 	}
 	.footer-wrap {
-		max-width: 1268px;
 		margin: auto;
 	}
 	.footer-wrap img {
-		width: 25%;
-		max-width: 25%;
-		display: block;
+		width: 20%;
+		max-width: 20%;
+	}
+	.footer-wrap nav {
+		float: right;
 	}
 	.footer-wrap nav ul {
 		margin-top: 5px;
