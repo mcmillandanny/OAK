@@ -335,7 +335,7 @@ body {
 			font-family: sans-serif;
 			margin: 5px 0px;
 			color: rgba(white, .9);
-			font-size: .9em;
+			font-size: .8em;
 
 		} 
 
@@ -350,7 +350,14 @@ body {
 #mc_embed_signup input.mce_inline_error {
 	border-color: #6C5E4B !important;
 }
-
+#mce-success-response {
+	font-family: "Founders-Regular";
+	text-align: left;
+	display: block;
+	padding: 2px 0px;
+	color: #6C5E4B;
+	font-size: 1.3em;
+}
 .input-form  {
 	width: 100%;
 	max-width: 900px;
@@ -363,7 +370,7 @@ body {
 		margin: 20px 0px;
 		font-family: "TiemposTex-Regular";
 		color: #6C5E4B;
-		font-size: 1.4em;
+		font-size: 1.1em;
 	}
 
 
@@ -379,7 +386,7 @@ body {
 		display: block;
 		padding: 2px 0px;
 		color: #6C5E4B;
-		font-size: 1.3em;
+		font-size: .9em;
 		}
 		
 		input {
@@ -387,16 +394,17 @@ body {
 			margin: 10px 0px;
 			outline: none;
 			padding: 10px;
-			border-color: #6C5E4B;
+			border: 1px solid #6C5E4B;
+			font-family: "Founders-Regular";
 		}
 
 		.button-submit {
 			margin-top: 25px;
-			width: 40%;
+			width: 25%;
 			margin-left: auto;
 			text-align: center;
 			float: right;
-			font-size: 1.3em;
+			font-size: 1em;
 			cursor: pointer;
 			background: #ada289;
 			border-color: rgba(101, 88, 68, 1);  
@@ -418,7 +426,7 @@ body {
 	.fb-icon, .insta-icon, .twitter-icon {
 		display: inline-block;
 		width: 5%;
-		margin: 0px 5px;
+		margin: 5px 5px;
 	}
 
 	h1 {
@@ -432,6 +440,7 @@ body {
 	p {
 		margin-left: 5px;
 		display: inline-block;
+		vertical-align: middle;
 		color: rgba(101, 88, 68, 1);
 		font-family: "TiemposTex-Regular";
 	}
@@ -631,7 +640,7 @@ body {
 		.office-contact, .retail-contact {
 			width: 50%;
 			font-size: 1.1em;
-			margin-right: -120px;
+			margin-right: -90px;
 		}
 	}
 }
