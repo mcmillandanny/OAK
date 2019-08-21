@@ -302,21 +302,20 @@ body {
 	background: rgba(101, 88, 68, 1);
 
 	.contact-wrap {
-		width: 80%;
+		width: 100%;
 		margin: auto;
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
 	
-		.contact-1, .contact-2, .contact-3, .contact-4 , h2{
+		.contact-1, .contact-2, .contact-3, .contact-4, .contact-5, h2{
 			margin: 20px auto;
 		}
 
-		.office-contact, .retail-contact {
-			width: 100%;
-			padding: 30px;
+		.office-contact, .retail-contact, .media-contact {
+			width: 80%;
+			// padding: 10px 20px;
 			text-align: left;
-			transition: .4s;
 		}
 
 		h2 {
@@ -335,7 +334,7 @@ body {
 			font-family: sans-serif;
 			margin: 5px 0px;
 			color: rgba(white, .9);
-			font-size: .8em;
+			font-size: .7em;
 
 		} 
 
@@ -516,7 +515,7 @@ body {
 				margin: 20px auto;
 			}
 
-			.office-contact, .retail-contact {
+			.office-contact, .retail-contact, .media-contact{
 				width: 100%;
 				margin: auto;
 			}
@@ -542,18 +541,21 @@ body {
 	}
 
 	.contact-info {
-
 		.contact-wrap {
-			width: 80%;
+			width: 100%;
 		.contact-1, .contact-2, .contact-3, .contact-4 , h2{
 			margin: 20px auto;
 		}
 
-		.office-contact, .retail-contact {
-			width: 40%; 
+		.office-contact, .retail-contact, .media-contact {
+			width: 33.33%; 
 			margin: auto;
 			padding: 30px;
 			transition: .4s;
+		}
+		
+		.media-contact {
+			margin-top: 0px;
 		}
 	}
 }
@@ -635,16 +637,38 @@ body {
 	.contact-info {
 
 		.contact-wrap {
-			width: 60%;
+			width: 80%;
 
-		.office-contact, .retail-contact {
-			width: 50%;
+		.office-contact, .retail-contact, .media-contact {
+			width: 33.33%;
 			font-size: 1.1em;
-			margin-right: -90px;
+			// margin-right: -90px;
 		}
 	}
 }
 	.location-map {
 		clear: both;
 	}
+}
+
+@media only screen and (min-width : 1024px) {
+
+
+	.contact-info {
+
+		.contact-wrap {
+			width: 80%;
+
+		.office-contact, .retail-contact, .media-contact {
+			max-width: 33.33%;
+			font-size: 1.1em;
+			// margin-right: -90px;
+		}
+
+		.media-contact {
+			margin-top: 0px;	
+		}
+	}
+}
+
 }

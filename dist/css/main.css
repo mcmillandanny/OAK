@@ -266,22 +266,20 @@ body {
 }
 
 .contact-info .contact-wrap {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
-.contact-info .contact-wrap .contact-1, .contact-info .contact-wrap .contact-2, .contact-info .contact-wrap .contact-3, .contact-info .contact-wrap .contact-4, .contact-info .contact-wrap h2 {
+.contact-info .contact-wrap .contact-1, .contact-info .contact-wrap .contact-2, .contact-info .contact-wrap .contact-3, .contact-info .contact-wrap .contact-4, .contact-info .contact-wrap .contact-5, .contact-info .contact-wrap h2 {
 	margin: 20px auto;
 }
 
-.contact-info .contact-wrap .office-contact, .contact-info .contact-wrap .retail-contact {
-	width: 100%;
-	padding: 30px;
+.contact-info .contact-wrap .office-contact, .contact-info .contact-wrap .retail-contact, .contact-info .contact-wrap .media-contact {
+	width: 80%;
 	text-align: left;
-	transition: .4s;
 }
 
 .contact-info .contact-wrap h2 {
@@ -299,7 +297,7 @@ body {
 	font-family: sans-serif;
 	margin: 5px 0px;
 	color: rgba(255, 255, 255, 0.9);
-	font-size: .8em;
+	font-size: .7em;
 }
 
 #mc_embed_signup div.mce_inline_error {
@@ -458,7 +456,7 @@ body {
 	.contact-info .contact-wrap .contact-1, .contact-info .contact-wrap .contact-2, .contact-info .contact-wrap .contact-3, .contact-info .contact-wrap .contact-4, .contact-info .contact-wrap h2 {
 		margin: 20px auto;
 	}
-	.contact-info .contact-wrap .office-contact, .contact-info .contact-wrap .retail-contact {
+	.contact-info .contact-wrap .office-contact, .contact-info .contact-wrap .retail-contact, .contact-info .contact-wrap .media-contact {
 		width: 100%;
 		margin: auto;
 	}
@@ -475,16 +473,19 @@ body {
 		width: 70%;
 	}
 	.contact-info .contact-wrap {
-		width: 80%;
+		width: 100%;
 	}
 	.contact-info .contact-wrap .contact-1, .contact-info .contact-wrap .contact-2, .contact-info .contact-wrap .contact-3, .contact-info .contact-wrap .contact-4, .contact-info .contact-wrap h2 {
 		margin: 20px auto;
 	}
-	.contact-info .contact-wrap .office-contact, .contact-info .contact-wrap .retail-contact {
-		width: 40%;
+	.contact-info .contact-wrap .office-contact, .contact-info .contact-wrap .retail-contact, .contact-info .contact-wrap .media-contact {
+		width: 33.33%;
 		margin: auto;
 		padding: 30px;
 		transition: .4s;
+	}
+	.contact-info .contact-wrap .media-contact {
+		margin-top: 0px;
 	}
 	.footer-wrap {
 		margin: auto;
@@ -536,15 +537,27 @@ body {
 		max-width: 50%;
 	}
 	.contact-info .contact-wrap {
-		width: 60%;
+		width: 80%;
 	}
-	.contact-info .contact-wrap .office-contact, .contact-info .contact-wrap .retail-contact {
-		width: 50%;
+	.contact-info .contact-wrap .office-contact, .contact-info .contact-wrap .retail-contact, .contact-info .contact-wrap .media-contact {
+		width: 33.33%;
 		font-size: 1.1em;
-		margin-right: -90px;
 	}
 	.location-map {
 		clear: both;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.contact-info .contact-wrap {
+		width: 80%;
+	}
+	.contact-info .contact-wrap .office-contact, .contact-info .contact-wrap .retail-contact, .contact-info .contact-wrap .media-contact {
+		max-width: 33.33%;
+		font-size: 1.1em;
+	}
+	.contact-info .contact-wrap .media-contact {
+		margin-top: 0px;
 	}
 }
 
